@@ -78,4 +78,16 @@ print(f'price is very {'expensive' if value>3400 else 'cheap'}')
 
 salary = 246000
 print(f'my salary is {salary:,} rs')
+
+number = 34
+print(f"number is {number:%} ok?")
+
+#escape sequences
+print("this is python language /nplease practice") #new line charachters
+
+print("this is pytho n language /t please practice")#tab 
+
+print("this is paython language /' please practice")
+
+
       
