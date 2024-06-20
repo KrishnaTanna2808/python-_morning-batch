@@ -55,3 +55,6 @@ print(a == b) #true because they have the same value
 a = b
 print(a is b) #true because they are pointing to the same object in memory
 
+#loops
+
+
