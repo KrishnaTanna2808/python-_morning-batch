@@ -83,9 +83,9 @@ number = 34
 print(f"number is {number:%} ok?")
 
 #escape sequences
-print("this is python language /nplease practice") #new line charachters
+print("this is python language /n please practice") #new line charachters
 
-print("this is pytho n language /t please practice")#tab 
+print("this is pytho n language /t please practice") #tab 
 
 print("this is paython language /' please practice")
 
