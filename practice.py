@@ -50,5 +50,32 @@ fahrenheit = float(input("enter into fahrenheit:"))
 
 print("in celsius: " + str(g))
 
- 
+#find the armstrong number
+
+num = int(input("Enter one number: "))
+original = num
+another = num
+
+count = 0
+
+
+while num!=0:
+    count +=1
+    num = num//10
+    
+print(f"no of Digit is: {count}")
+
+sum = 0 
+
+while original!=0:
+    last = original % 10
+    
+    sum = sum + pow(last,count)
+    original = original //10
+
+
+if another == sum:
+    print("Number is Armstrong: ")
+else:
+    print("Number is not Armstrong: ") 
 
