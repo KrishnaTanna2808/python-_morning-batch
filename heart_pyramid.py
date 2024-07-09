@@ -257,24 +257,193 @@ for x in range(1,5):
         print("*",end="")
         
     print()
-    
+ 
+ 
+ #################################################################################   
 # 21. Diamond Pattern
 #     *
 #    ***
 #   *****
 #  *******
 # *********
-#  *******
+#  *******         1/1   
 #   *****
 #    ***
 #     *
+print()
 
 
+for x in range(1,6):
+    for z in range(x,6):
+        print(" ",end="")
+    for y in range(1,2*x):
+        print("*",end="")
+        
+    print()
+    
+for x in range(1,5):
+    for z in range(1,x+2):
+        print(" ",end="")
+    for y in range(1,10-2*x):
+        print("*",end="")
+        
+    print()
+    
+    
+print()
+
+
+# 22. Hollow Diamond Pattern
+# ********** 
+# ****  **** 
+# ***    *** 
+# **      ** 
+# *        * 
+# *        * 
+# **      ** 
+# ***    *** 
+# ****  ****
+# **********
+#upper
+
+for x in range(1,6):
+    
+    for y in range(x,6):
+        print("*",end="")
+        
+    for z in range(1,2*x):
+        print(" ",end="")
+        
+    for y in range(x,6):
+        print("*",end="")
+       
+    print()   
+#lower
+
+for x in range(1,6):
+    
+    for y in range(1,x+1):
+        print("*",end="")
+        
+    for z in range(1,11-2*x):
+        print(" ",end="")
+        
+    for y in range(1,x+1):
+        print("*",end="")      
+        
+    print()
+    
+print()
+
+
+# 23. Right Arrow Star Pattern
+#     ***** 
+#       ****
+#         *** 
+#           **
+#             * 
+#           **
+#         ***
+#       ****
+#     *****
+
+
+for x in range(1,6):
+    
+    for z in range(1,2*x):
+        print(" ",end="")
+        
+    for y in range(x,6):
+        print("*",end="")
+        
+    print()
+
+for x in range(1,5):
+    
+    for z in range(1,10-2*x):
+        print(" ",end="")
+        
+    for y in range(1,x+2):
+        print("*",end="")
+        
+    print()   
+
+print()
+
+# 24. Left Arrow Pattern
+#      ***** 
+#     ****
+#    *** 
+#  **
+# * 
+#  **
+#    *** 
+#     ****
+#       *****
+
+
+for x in range(1,6):
+    
+    for z in range(1,10-2*x):
+        print(" ",end="")
+        
+    for y in range(x,6):
+        print("*",end="")
+    
+    print()
+    
+for x in range(1,5):
+    
+    for z in range(1,x+1):
+        print(" ",end="")
+        
+    for y in range(1,x+2):
+        print("*",end="")
+        
+    print()
+               
+print()  
+
+             
+#  25. Plus Pattern
+#     +
+#     +
+#     +
+#     +
+# ++++++++++
+#     +
+#     + 
+#     +
+#     +       
+
+for x in range(1,11):
+    for y in range(1,11):
+        if x==5 or y==5:
+            print("*",end="")
+        else:
+            print(" ",end="")
+    print() 
+    
+print()  
+
+
+# 26. X Pattern
+# ** ** ** **
+# *
+# ** ** ** **
+
+for x in range(1,10):
+    for y in range(1,10):
+        if x==y or x+y==10:
+            print("*",end="")
+        else:
+            print(" ",end="")
+    print()
     
 
+ 
 
-
-                                            
+                                 
         
 
 
