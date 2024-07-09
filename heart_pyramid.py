@@ -161,12 +161,117 @@ for x in range(1,6):
     for z in range(x,6):
         print(" ",end="")
     for y in range(1,2*x):
-        if x==1 or x==5 or y== or y==5:
+        if x==1 or x==5 or y==1 or y==(2*x-1):
             print("*",end="")
         else:
             print(" ",end="")
         
     print()
+    
+print()
+
+# #17. Inverted Pyramid Pattern
+# *********
+#  *******
+#   *****
+#    ***
+#      *
+
+
+for x in range(1,6):
+    
+    for z in range(1,x+1):
+        print(" ",end="")
+    for y in range(1,12-2*x):
+        print("*",end="")
+        
+    print()
+    
+print()
+
+# 18. Inverted Hollow Pyramid Pattern
+# ********* 
+#  *     * 
+#   *   * 
+#    * *
+#     *
+for x in range(1,6):
+    
+    for z in range(1,x+1):
+        print(" ",end="")
+    for y in range(1,12-2*x):
+        if x==1 or x==5 or y==1 or y==(11-2*x):   #1/9  2/7  3/5 4/3 5/1
+           print("*",end="")
+           
+        else:
+            print(" ",end="")
+        
+    print()
+    
+########################################################################################################
+# 19. Half Diamond Pattern
+# *
+# **
+# ***
+# ****
+# *****
+# ****
+# ***
+# **
+# *
+for x in range(1,5):
+    for y in range(1,x+1):
+        print("*",end="")
+    print()
+    
+for x in range(1,6):
+    for y in range(x,6):
+        print("*",end="")
+        
+    print()
+##############################################################################################
+   
+# 20. Mirrored Half Diamond Pattern
+#     *
+#    **
+#   ***
+#  ****
+# *****
+#  ****
+#   ***
+#    **
+#     *
+
+
+for x in range(1,6):
+    for z in range(x,6):
+        print(" ",end="")
+    for y in range(1,x+1):
+        print("*",end="")
+    print()
+    
+for x in range(1,5):
+    for z in range(1,x+2):
+        print(" ",end="")
+    for y in range(x,5):
+        print("*",end="")
+        
+    print()
+    
+# 21. Diamond Pattern
+#     *
+#    ***
+#   *****
+#  *******
+# *********
+#  *******
+#   *****
+#    ***
+#     *
+
+
+    
+
 
 
                                             
