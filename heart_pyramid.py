@@ -439,11 +439,167 @@ for x in range(1,10):
         else:
             print(" ",end="")
     print()
-    
+print()
 
+
+   
+# 29. 8 Pattern
+#   ***
+# *     * 
+# *     * 
+# *     * 
+#   *** 
+# *     * 
+# *     * 
+# *     * 
+#   ***
+
+for x in range(1,6):
+    
+    for z in range(1,2*x):
+        print(" ",end="")
+        
+    for y in range(1,4):
+        print("*",end="")
+        
+    print()
  
 
                                  
         
 
 
+# 2. Hollow Square Pattern
+# ***** 
+# *   * 
+# *   * 
+# *   * 
+# *****
+
+for x in range(1,6):
+    for y in range(1,6):
+        if x==1 or x==5 or y==1 or y==5:
+            print("*",end="")
+        else:
+            print(" ",end="")
+        
+    print()
+    
+print()
+
+# 3. Hollow Square Pattern with Diagonal
+# ***** 
+# ** ** 
+# * * *
+# ** ** 
+# *****
+
+for x in range(1,6):
+    for y in range(1,6):
+        if x==1 or x==5 or y==1 or y==5 or x==y or x+y==6:
+           print("*",end="")
+        else:
+            print(" ",end="")
+        
+    print()
+    
+print()
+ 
+    
+# 4. Rhombus Pattern
+#     ***** 
+#    *****
+#   ***** 
+#  *****
+# *****
+
+for x in range(1,6):
+    
+    for z in range(x,5):
+        print(" ",end="")
+        
+    for y in range(1,6):
+        print("*",end="")
+        
+    print()
+    
+# 5.Hollow Rhombus Pattern
+#     ***** 
+#    *   *
+#   *   * 
+#  *   *
+# *****
+
+print()
+
+
+for x in range(1,6):
+    
+    for z in range(x,5):
+        print(" ",end="")
+        
+    for y in range(1,6):
+        if x==1 or x==5 or y==1 or y==5:
+            print("*",end="")
+        else:
+            print(" ",end="")
+        
+    print()
+    
+print()
+
+
+    
+# 6. Mirrored Rhombus Pattern
+# ***** 
+#  *****
+#   ***** 
+#    *****
+#     *****
+
+for x in range(1,6):
+    
+    for z in range(1,x+1):
+        print(" ",end="")
+        
+    for y in range(1,6):
+        print("*",end="")
+        
+    print()
+    
+print()
+
+# 7.Right Triangle Pattern
+# *
+# **
+# ***
+# ****
+# *****
+
+for x in range(1,6):
+    for y in range(1,x+1):
+        print("*",end="")
+        
+    print()
+    
+print()
+
+# 8.Hollow Right Triangle Pattern
+# *
+# **
+# * * 
+# *  * 
+# *****
+
+for x in range(1,6):
+    for y in range(1,x+1):
+        if x==1 or x==5 or x==y or y==1:
+            print("*",end="")
+        else:
+            print(" ",end="")
+            
+    print()
+    
+
+
+    
